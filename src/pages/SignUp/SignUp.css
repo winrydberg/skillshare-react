@@ -1,0 +1,84 @@
+.sectionone {
+  height: 30vh;
+  width: 100%;
+  background-image: url("../../assets/img/signup-desktop-top.png");
+}
+
+.section-signup {
+  display: flex;
+  height: 80vh;
+  background-color: #002333;
+  flex-direction: row;
+  position: relative;
+}
+
+.formcontainer {
+  width: 40%;
+}
+.appdescription {
+  width: 60%;
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.appdescription h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 3rem;
+}
+.onmemtext {
+  line-height: 3rem;
+  color: #fff;
+}
+
+.freemonth {
+  margin-bottom: 50px;
+  color: #00ff84;
+}
+
+.sub-description {
+  color: #fff;
+}
+
+.sub-description li {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.formview {
+  width: 30vw;
+  position: absolute;
+  height: 93vh;
+  background: #fafafa;
+  top: -8%;
+  left: 2%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.signup-top {
+  height: 30vh;
+  width: 100%;
+  background-image: url("../../assets/img/signup-desktop-bottom.png");
+}
+
+@media screen and (max-width: 768px) {
+  .formcontainer {
+    flex: 1;
+  }
+  .appdescription {
+    display: none;
+  }
+  .formview {
+    width: 95vw;
+    position: absolute;
+    height: 80vh;
+    background: #fafafa;
+    top: -8%;
+    left: 2%;
+    right: 2%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
